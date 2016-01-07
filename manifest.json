@@ -14,5 +14,5 @@
     "scripts": ["src/bg/background.js"],
     "persistent": true
     },
-  "permissions": ["webRequest", "*://*.amazon.com/*"]
+  "permissions": ["webRequest", "webRequestBlocking", "*://www.amazon.com/*"]
 }
